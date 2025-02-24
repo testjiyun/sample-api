@@ -18,7 +18,7 @@ public class DemoService {
 		
 		UserEntity userEntity = new UserEntity();
 		userEntity.setUserId(inVO.getUserId());
-		userEntity.setUserName(inVO.getUserName()+"-docker");
+		userEntity.setUserName(inVO.getUserName()+"-docker-latest");
 
 		repository.save(userEntity);
 		
